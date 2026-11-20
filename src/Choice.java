@@ -1,6 +1,4 @@
-/**
- * A numbered reply the player can select within a scene.
- */
+//A numbered reply the player can select within a scene.
 public final class Choice {
     private final int number;
     private final String text;
@@ -38,9 +36,7 @@ public final class Choice {
         return text;
     }
 
-    /**
-     * Applies this choice's relationship effect and returns its immediate story result.
-     */
+    //Applies this choice's relationship effect and returns its immediate story result.
     public String applyTo(Player player) {
         if (character == null) {
             return neutralOutcome;
