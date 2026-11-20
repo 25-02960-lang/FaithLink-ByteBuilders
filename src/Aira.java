@@ -1,6 +1,4 @@
-/**
- * A thoughtful character who enjoys quiet moments and gardens.
- */
+//A thoughtful character who enjoys quiet moments and gardens
 public final class Aira extends RomanceCharacter {
     public Aira() {
         super("Aira", "thoughtful and quietly confident");
