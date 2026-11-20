@@ -1,6 +1,4 @@
-/**
- * The conversational approach behind a dialogue choice.
- */
+//The conversational approach behind a dialogue choice.
 public enum ChoiceTone {
     WARM,
     HONEST,
